@@ -1,0 +1,26 @@
+.container{
+    font-size: 50px;
+    background-color: coral;
+    margin: 50px; padding:20px; border: 30px double red;
+    border-radius: 50px;
+     background-color:palevioletred;
+}
+body{
+    background-image: url(istockphoto-917911572-1024x1024.jpg);
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 600px;
+}   
+#paragraph{
+    color: rgb(95, 160, 138);
+
+}
+h1{
+    color: black;
+}
+a:link{
+    color: brown;
+}
+a{
+    text-decoration: none;
+}

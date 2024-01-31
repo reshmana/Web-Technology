@@ -1,0 +1,92 @@
+body{
+    transform: translate(20px,20px);
+    background-color: rgb(235, 210, 210);
+
+}
+ .div{
+    height:100px;
+    width: 100px;
+    background-color: blueviolet;
+    transition: width 4s, hiegth 3s ,tarnsform 4s;
+    /* transition-delay: 3s; */
+    margin-bottom: 25px;
+    
+}
+.div:hover{
+    width: 200px;
+    height: 200px;
+    transform: rotate(360deg);
+
+}
+
+
+.div1{
+    height:100px;
+    width: 100px;
+    background-color: rgb(43, 205, 226);
+    transition: width 4s, hiegth 3s ,tarnsform 4s;
+    /* transition-delay: 3s; */
+    transition-timing-function: ease;
+    margin-bottom: 25px;
+
+}
+.div1:hover{
+    width: 200px;
+
+}
+.div2{
+    height:100px;
+    width: 100px;
+    background-color: rgb(125, 105, 145);
+    transition: width 4s, hiegth 3s ,tarnsform 4s;
+    /* transition-delay: 3s; */
+    transition-timing-function: ease-in-out;
+    margin-bottom: 25px;
+
+}
+.div2:hover{
+    width: 200px;
+
+}
+.div3{
+    height:100px;
+    width: 100px;
+    background-color: rgb(202, 168, 174);
+    transition: width 4s, hiegth 3s ,tarnsform 4s;
+    /* transition-delay: 3s; */
+    transition-timing-function: ease-in-out;
+    margin-bottom: 25px;
+
+}
+.div3:hover{
+    width: 200px;
+
+}
+.div4{
+    height:100px;
+    width: 100px;
+    background-color: blueviolet;
+    transition: width 4s, hiegth 3s ,tarnsform 4s;
+    /* transition-delay: 3s; */
+    transition-timing-function: ease-in-out;
+    margin-bottom: 25px;
+
+}
+.div4:hover{
+    width: 200px;
+
+}
+.div5{
+    height:100px;
+    width: 100px;
+    background-color: blueviolet;
+    transition: width 4s, hiegth 3s ,tarnsform 4s;
+    /* transition-delay: 3s; */
+    transition-timing-function: ease-in-out;
+    margin-bottom: 25px;
+
+}
+.div5:hover{
+    width: 200px;
+
+}

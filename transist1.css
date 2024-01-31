@@ -1,0 +1,25 @@
+body{
+    background-color: aliceblue;
+    transform: translate(50px,50px);
+}
+.div{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(124, 218, 129);
+    animation-name: animation;
+    animation-duration: 3s;
+    position: relative;
+    /* animation-fill-mode:4; */
+    /* animation-direction: alternate-reverse; */
+}
+@keyframes animation{
+    /* From{
+    background-color: aquamarine;}
+    to{background-color: blueviolet;} */
+    0%{background-color: chocolate;top:0px; left: 0px;}
+    25%{background-color: cornflowerblue;top: 0px; left: 100px;}
+    50%{background-color: aqua; top: 100px; left: 100px;}
+    75%{background-color: rgb(230, 82, 156); top: 100px; left: 0px;}
+    100%{background-color: rgb(46, 25, 121); top: 0px; left: 0px;}
+
+}

@@ -1,0 +1,101 @@
+.box{
+
+    background-color: blueviolet;
+    height: 200px;
+    width: 200px;
+
+    transform: rotate(65deg);
+    position: absolute;
+    margin-top: 50px;
+}
+
+img{
+    opacity: 0.6;  
+    /* transperency for the image */
+}
+
+.translate{
+    transform: translate(100px,80px);
+
+}
+
+.p{
+    color: white;
+    margin: 5px;
+}
+
+.image{
+
+    height: 250px;
+    width: 400px;
+    position: absolute;
+}
+
+.img{
+
+    display: flex;
+    justify-content: center;
+
+}
+.text{
+
+    color: blueviolet;
+    position: relative;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.scale{
+
+    height: 100px;
+    width: 200px;
+
+    background-color: chocolate;
+    /* transform: scale(1.2,0.1); */
+    transform: scale(2,7);
+    margin-top: 330px;
+
+}
+
+.scalex{
+    height: 100px;
+    width: 200px;
+
+    background-color:crimson;
+    transform: scaleY(8);  
+    /* scalex is for width and scaleY is for height */
+
+}
+
+.skew{
+
+    height: 100px;
+    width: 100px;
+    background-color: violet;
+    transform: skew(3deg,8deg);
+    transform: rotate3d(1,1,1,45deg);
+}
+
+.skewx{
+
+    height: 100px;
+    width: 100px;
+    background-color: rgb(68, 2, 68);
+    transform: skewX(3deg);
+}
+
+.skewy{
+
+    height: 100px;
+    width: 100px;
+    background-color: rgb(64, 55, 225);
+    transform:skewY(8deg);
+    opacity: 50px;
+}
+
+.rotatex{
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    transform: rotateX(50deg);
+}

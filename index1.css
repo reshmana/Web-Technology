@@ -1,0 +1,31 @@
+.paragraph{
+
+    color: red;
+    padding: 50px;
+    margin-top: -5px;
+
+}
+.paragraph-container{
+    border: 5px solid rgb(0, 195, 255);
+    width:200px ;
+    height: 400px;
+    border-radius: 20px;
+    background-color: burlywood;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    
+}
+/* group selector */
+table,tr,th{
+    border-color: blueviolet;
+    color: raugb(12, 133, 133);
+    
+}
+td,th{
+    color: black;
+}
+*{
+    color: darkgoldenrod;
+}

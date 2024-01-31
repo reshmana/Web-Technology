@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>X-workz</title>
+    <link rel="stylesheet" href="./BootStrap.css">
+</head>
+<body>
+  <div class="d-flex align-items-center">
+  <div class="container mt-5 d-flex justify-content-end ">
+    <div class="d-flex align-items-center">Hello</div>
+    <img src="https://images.unsplash.com/photo-1509043759401-136742328bb3?ixlib=rb-4.0.3" height="100px" width="100px">
+  </div>
+  <p>Hello world!!!!</p>
+</div> 
+<table class="table table-bordered">
+  <tr>
+    <th>SlNo</th>
+    <th>Name</th>
+    <th>College</th>
+  </tr>
+  <tr class="bg-danger">
+    <td>1</td>
+    <td>Resh</td>
+    <td>JIT</td>
+
+  </tr>
+</table>
+
+
+<div>
+  <span class="alert alert-primary">this is alert-warning</span>
+</div>
+<div class="spinner-border text-info">
+</div>
+
+
+
+
+<form>
+  <div>
+     <leble class="form-check-label">UserName</leble>
+  <input class="form-control w-25" type="text" placeholder="Username"></div>
+  <div> <leble class="form-check-label mb-1 ms-1">Password</leble>
+  <input class="form-control w-25 ms-2 mb-3" type="text" placeholder="Password"></div>
+<input class="btn btn-danger ms-4 mb-3" type="button" value="submit">
+</form>
+
+<div>
+  <button class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placements="top" title="Hey me!">
+     Hey me! 
+    </button>
+</div>
+
+<script>
+  var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+  return new bootstrap.Tooltip(tooltipTriggerEl)
+});
+</script>
+</body>
+</html>
