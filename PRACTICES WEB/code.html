@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascript</title>
+    <script>
+    for(var i=1;i<=3;i++){
+        setTimeout(()=>{
+            console.log(i);
+        },1000);
+    }
+    console.log("start");
+    setTimeout(()=>{
+        console.log("Timeout")
+    },0);
+    console.log("end");
+
+    console.log(foo());
+    function foo(){
+        return "bar";
+    }
+
+    function left(){
+        return console.log("Hello");
+    }
+    function right(){
+        return console.log(true);
+    }
+    console.log(left() && right());
+
+    function short(){
+        return(
+            true|| console.log("hello world")
+        );
+    }
+    console.log(short());
+</script>
+</head>
+<body>
+    
+</body>
+</html>
