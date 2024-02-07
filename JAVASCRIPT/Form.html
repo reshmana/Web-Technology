@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>X-workz</title>
+    <script src="./class.js"></script>
+</head>
+<body > 
+    <div>
+        <form name="Registration">
+            <label style="margin: 10px;"><strong>Fisrt Name</strong></label>
+            <input type="text" id="firstname"  onblur="fnameValidation()"  style="padding: 8px;"/>
+            <br> 
+            <label style="margin:10px;"><strong>Last Name</strong></label>
+            <input type="text" id="lname" style="padding: 8px;"/>
+        
+    </div>
+    <br>
+    <div>
+        <label style="margin: 10px;"><strong>Gender</strong></label>
+        <label style="margin: 10px;">Female</label>
+        <input type="radio" name="Gender" value="Female" >
+        <label style="margin: 10px;">Male</label>
+        <input type="radio" name="Gender" value="Male" >
+        
+    </div><br>
+    <label style="margin: 20px;"><strong>Date of Birth</strong></label>
+    <input type="date">
+    <br>
+    <br>
+    <label style="margin: 20px;"><strong>Adress</strong></label>
+    <input name="select" id="select" style="width: 150px;">
+    <br>
+    <br>
+    <label style="margin: 10px;"><strong>Applicants Mobile Number</strong></label>
+                <input type="tel" placeholder="1234567890">  
+                <br>
+                <br>
+                <div>
+                    <div>
+                        <label>Working</label>
+                        <span>yes<input type="radio" name="working" value="yes"/><span>No<input type="radio" name="working" value="no"></span>
+                    </div>
+                    <input type="button" onclick="functionClick()" value="submit" />
+                </div>
+                <div>
+                    <input type="reset" value="clear"/>
+                </div>
+            </form>
+                
+
+</body>
+</html>

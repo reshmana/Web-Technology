@@ -1,6 +1,6 @@
-//globle variable
-var city;
-var state;
+// //globle variable
+// var city;
+// var state;
 
 function location1(city,state){
  this.city=city;

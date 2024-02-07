@@ -1,4 +1,4 @@
-//PUSH
+// //PUSH
 const fruits = ["Banana", "Orange", "Apple", "Mango"];
 console.log(fruits);
 var newArrey=fruits.push("grapes");
@@ -11,14 +11,14 @@ var newArrey=vegetables.push("spinatch");
 console.log(newArrey)
 
 //POP
-var Array=[20,50,60,90,100,120];
-console.log(Array);
-var element=Array.pop();//remove the last arrey and retur it.
+var Array2=[20,50,60,90,100,120];
+console.log(Array2);
+var element=Array2.pop();//remove the last arrey and retur it.
 console.log(element);
 
-var Array=[20,0,2,9,80,500];
-console.log(Array);
-var element=Array.pop();
+var Array1=[20,0,2,9,80,500];
+console.log(Array1);
+var element=Array1.pop();
 console.log(element);
 
 //UNSHIFT
@@ -97,3 +97,11 @@ function values3(a,b){
 }
 var sumOfnumbers=values3(1000,530);
 console.log(sumOfnumbers);
+
+//TASK 05/02/2024
+//HIGHER ORDER FUNCTION
+
+
+
+
+

@@ -25,7 +25,7 @@ console.log(fruit_wieght,typeof(fruit_wieght));
     console.log(ref);
 }())
 
-//Named Function
+// //Named Function
 function nameOfFunction(){
     console.log("Named function");
 }
@@ -37,4 +37,22 @@ var arrowFuncton=()=>{
 arrowFuncton();
 
 //take 10 example tyrto write 10 let var const print in console fuction
+
+//hogher order function
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
